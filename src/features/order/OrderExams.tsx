@@ -138,7 +138,7 @@ const OrderExams = () => {
     const message = encodeURIComponent(
       `Hello Genesis Examinations! I would like to inquire about ordering exams for my institution.`
     );
-    window.open(`https://wa.me/211XXXXXXXXX?text=${message}`, "_blank");
+    window.open(`https://wa.me/211920879329?text=${message}`, "_blank");
   };
 
   const resetForm = () => {

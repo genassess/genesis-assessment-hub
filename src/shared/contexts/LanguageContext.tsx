@@ -121,9 +121,9 @@ const translations = {
     "footer.about": "Genesis Examinations is South Sudan's trusted provider of secure, professional educational assessment services.",
     "footer.quick": "Quick Links",
     "footer.contact.title": "Contact Information",
-    "footer.contact.email": "Email: info@genesisexams.ss",
-    "footer.contact.phone": "Phone: +211 XXX XXX XXX",
-    "footer.rights": "© 2024 Genesis Examinations. All rights reserved.",
+    "footer.contact.email": "Email: genesisexaminations@gmail.com",
+    "footer.contact.phone": "Phone: +211 920 879 329",
+    "footer.rights": `© ${new Date().getFullYear()} Genesis Examinations. All rights reserved.`,
 
     // Order Exams
     "order.title": "Order Examinations",
@@ -284,8 +284,8 @@ const translations = {
     "footer.about": "جينيسيس للامتحانات هي المزود الموثوق لخدمات التقييم التعليمي الآمنة والاحترافية في جنوب السودان.",
     "footer.quick": "روابط سريعة",
     "footer.contact.title": "معلومات الاتصال",
-    "footer.contact.email": "البريد الإلكتروني: info@genesisexams.ss",
-    "footer.contact.phone": "الهاتف: +211 XXX XXX XXX",
+    "footer.contact.email": "البريد الإلكتروني: genesisexaminations@gmail.com",
+    "footer.contact.phone": "الهاتف: +211 920 879 329",
     "footer.rights": "© 2024 جينيسيس للامتحانات. جميع الحقوق محفوظة.",
 
     // Order Exams
