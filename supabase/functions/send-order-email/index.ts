@@ -106,7 +106,11 @@ const handler = async (req: Request): Promise<Response> => {
       </div>
     `;
 
-    await sendEmail(["info@genesisexams.ss"], `New Exam Order - ${orderData.institutionName}`, adminHtml);
+    await sendEmail(
+      ["genesisexaminations@gmail.com"],
+      `New Exam Order - ${orderData.institutionName}`,
+      adminHtml
+    );
     console.log("Admin email sent successfully");
 
     return new Response(

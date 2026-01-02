@@ -15,7 +15,7 @@ export const Navbar = () => {
     { path: "/services", label: t("nav.services") },
     { path: "/order", label: t("nav.order") },
     { path: "/testimonials", label: t("nav.testimonials") },
-    { path: "/partners", label: t("nav.partners") },
+    // { path: "/partners", label: t("nav.partners") },
     { path: "/faq", label: t("nav.faq") },
   ];
 
@@ -58,7 +58,7 @@ export const Navbar = () => {
 
           {/* Right side actions */}
           <div className="flex items-center gap-3">
-            <Button
+            {/* <Button
               variant="ghost"
               size="sm"
               onClick={toggleLanguage}
@@ -66,7 +66,7 @@ export const Navbar = () => {
             >
               <Globe className="h-4 w-4" />
               <span>{language === "en" ? "العربية" : "English"}</span>
-            </Button>
+            </Button> */}
 
             <Link to="/contact" className="hidden sm:block">
               <Button variant="default">{t("nav.contact")}</Button>
@@ -102,7 +102,7 @@ export const Navbar = () => {
               </Link>
             ))}
             <div className="pt-2 space-y-2">
-              <Button
+              {/* <Button
                 variant="ghost"
                 size="sm"
                 onClick={() => {
@@ -113,7 +113,7 @@ export const Navbar = () => {
               >
                 <Globe className="h-4 w-4 mr-2" />
                 {language === "en" ? "العربية" : "English"}
-              </Button>
+              </Button> */}
               <Link to="/contact" className="block" onClick={() => setMobileMenuOpen(false)}>
                 <Button className="w-full">{t("nav.contact")}</Button>
               </Link>
